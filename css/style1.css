@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.input-group {
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-bottom: 1px solid #757575;
+}
+.search {
+    padding-top: 128px;
+}
+.head span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+.head {
+    width: 1124px;
+    padding-top: 56px;
+}
+.cards {
+    max-width: 1124px;
+    padding-top: 16px;
+    margin-bottom: 64px;
+}
+.card {
+    margin-bottom: 16px;
+    border: 0;
+    transition: box-shadow 0.1s ease-in, transform 0.1s ease-in;
+    border-radius: 0;
+}
+.cards a {
+    text-decoration: none;
+}
+.card:hover {
+    box-shadow: 0 0 8px rgb(206, 206, 206);
+    transform: scale(1.02);
+}
